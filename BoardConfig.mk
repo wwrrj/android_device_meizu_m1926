@@ -91,6 +91,7 @@ TW_USE_TOOLBOX := true
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_USE_LEDS_HAPTICS := true
 TW_DEFAULT_LANGUAGE:=zh_CN
+TW_SKIP_COMPATIBILITY_CHECK := true
 
 # NOTE - Dont use '-' or blank spaces in flag values , otherwise it will create build errors or other bugs in recovery (Excluding SHRP_PATH,SHRP_REC). 
 # Path of your SHRP Tree
@@ -110,7 +111,7 @@ SHRP_NOTCH := true
 SHRP_EXPRESS := true
 SHRP_EDL_MODE := 1
 SHRP_INTERNAL := /sdcard 
-SHRP_OTG := /usb_otg
+SHRP_OTG := /usb-otg
 SHRP_FLASH := 1
 
 SHRP_CUSTOM_FLASHLIGHT := true 
